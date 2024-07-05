@@ -1,0 +1,200 @@
+Script started on 2024-07-05 13:47:45+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;adarshrangrej@TIGER04662: ~[01;32madarshrangrej@TIGER04662[00m:[01;34m~[00m$ cd C:/USers[K[K[K[Ksers/user/my_project
+[?2004lbash: cd: C:/Users/user/my_project: No such file or directory
+[?2004h]0;adarshrangrej@TIGER04662: ~[01;32madarshrangrej@TIGER04662[00m:[01;34m~[00m$ git clone [7mhttps://github.com/AdarshRangrej-Tiger/ML-Training-Session.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/AdarshRangrej-Tiger/ML-Training-Session.git
+[?2004lCloning into 'ML-Training-Session'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Receiving objects:  33% (1/3)Receiving objects:  66% (2/3)Receiving objects: 100% (3/3)Receiving objects: 100% (3/3), done.
+[?2004h]0;adarshrangrej@TIGER04662: ~[01;32madarshrangrej@TIGER04662[00m:[01;34m~[00m$ git status
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h]0;adarshrangrej@TIGER04662: ~[01;32madarshrangrej@TIGER04662[00m:[01;34m~[00m$ mkdir[K[K[K[K[Kcd [7mUbuntu\home\adarshrangrej[27mUbuntu\home\adarshrangrej[1Phome\adarshrangrej[1Phome\adarshrangrej[1Phome\adarshrangrej[1Phome\adarshrangrej[1Phome\adarshrangrej[1Phome\adarshrangrej[1Phome\adarshrangrej\home\adarshrangrej
+[?2004lbash: cd: homeadarshrangrej: No such file or directory
+[?2004h]0;adarshrangrej@TIGER04662: ~[01;32madarshrangrej@TIGER04662[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mML-Training-Session[0m  my_unix_session.txt
+[?2004h]0;adarshrangrej@TIGER04662: ~[01;32madarshrangrej@TIGER04662[00m:[01;34m~[00m$ cd ML-T[7mML-Training-Session[27mML-Training-Session
+[?2004lbash: cd: ML-TML-Training-Session: No such file or directory
+[?2004h]0;adarshrangrej@TIGER04662: ~[01;32madarshrangrej@TIGER04662[00m:[01;34m~[00m$ cat d ML-TML-Training-Sessionls[Kcd \home\adarshrangrej[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mML-Training-Session[27mML-Training-Session
+[?2004l[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ ls
+[?2004lREADME.md
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ cat README.md
+[?2004l# ML-Training-Session[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ echo[K[K[K[Kgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ echo '[7mML-Training-Session[27mML-Training-Session' > REDM[K[KADME1
+[?2004l[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME1[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git add README
+[?2004lfatal: pathspec 'README' did not match any files
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git add README1
+[?2004l[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README1[m
+
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git add Con[K[KONTRIBUTIN[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadd
+[?2004lNothing specified, nothing added.
+[33mhint: Maybe you wanted to say 'git add .'?[m
+[33mhint: Turn this message off by running[m
+[33mhint: "git config advice.addEmptyPathspec false"[m
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git commit -m "New file "[K[K"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <adarshrangrej@TIGER04662.tigeranalytics.local>) not allowed
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git add REMA[K[KAME[K[KDME1
+[?2004l[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README1[m
+
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git commit -m "New file [K"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <adarshrangrej@TIGER04662.tigeranalytics.local>) not allowed
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README1[m
+
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git stta[K[Kt[Katus -s
+[?2004l[32mA[m  README1
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git diff
+[?2004l[?1h=[K[?1l>[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git diff -- st[K[K[Kstaged
+[?2004l[?1h=[1mdiff --git a/README1 b/README1[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..431ff54[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README1[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mML-Training-Session[m[m
+[K[?1l>[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git add Contributing.md
+[?2004lfatal: pathspec 'Contributing.md' did not match any files
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git git status
+[?2004lgit: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git git status[1P status[1P status[1P status[1Pstatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README1[m
+
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git commit -a -m [K 'New File'
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <adarshrangrej@TIGER04662.tigeranalytics.local>) not allowed
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ [7m git config --global user.email "you@example.com"[27m git config --global user.email "you@example.com"[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"d"a"[1P"[1P"a"d"a"r"s"h"."r"a"n"g"r"e"j"@"t"i"g"h"r"[1P"[1P"e"r"n"a"[1P"[1P"a"n"a"l"u"t"i"c"s"."c"o"m"
+[?2004l[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git commit -a -m 'New File'status[K
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README1[m
+
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git statuscommit -a -m 'New File'
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <adarsh.rangrej@tigeranalutics.com>) not allowed
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git commit -a -m 'New File'status[Kcommit -a -m 'New File'status[Kcommit -a -m 'New File'status[Kcommit -a -m 'New File'[Kgit commit -a -m 'New File'status[Kcommit -a -m 'New File'status[Kgit statusadd Contributing.md[6Pdiff --staged[K[K[K[K[K[K[K[K[Komit --[K[K[K[K[K[K[K[7mgit config --global user.name "Your Name"[27mgit config --global user.name "Your Name"[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[7mAdarshRangrej-Tiger[27m"AdarshRangrej-Tiger"
+[?2004l[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README1[m
+
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git statusconfig --global user.name "AdarshRangrej-Tiger"[24Pmmit -a -m 'New File'status[Kcommit -a -m 'New File'[1P[1P[1P
+[?2004l[main 0e6f92e] New File
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README1
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git push
+[?2004lUsername for 'https://github.com': AdarshRangrej-Tiger
+Password for 'https://AdarshRangrej-Tiger@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/AdarshRangrej-Tiger/ML-Training-Session.git/'
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ git checkout [7mAssignment-1[27mAssignment-1
+[?2004lerror: pathspec 'Assignment-1' did not match any file(s) known to git
+[?2004h]0;adarshrangrej@TIGER04662: ~/ML-Training-Session[01;32madarshrangrej@TIGER04662[00m:[01;34m~/ML-Training-Session[00m$ cd -
+[?2004l/home/adarshrangrej
+[?2004h]0;adarshrangrej@TIGER04662: ~[01;32madarshrangrej@TIGER04662[00m:[01;34m~[00m$ git clone [7mhttps://github.com/AdarshRangrej-Tiger/ML-Training-Session.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/AdarshRangrej-Tiger/ML-Training-Session.git
+[?2004lfatal: destination path 'ML-Training-Session' already exists and is not an empty directory.
+[?2004h]0;adarshrangrej@TIGER04662: ~[01;32madarshrangrej@TIGER04662[00m:[01;34m~[00m$ git exit
+[?2004lgit: 'exit' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+[?2004h]0;adarshrangrej@TIGER04662: ~[01;32madarshrangrej@TIGER04662[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-07-05 17:13:38+05:30 [COMMAND_EXIT_CODE="1"]
