@@ -34,10 +34,12 @@ jobs:
 
     - name: Run flake8
       run: |
+        conda init
         conda activate mle-dev
         flake8 nonstandardcode.py
 
     - name: Run nonstandardcode.py
       run: |
+        conda init
         conda activate mle-dev
         python nonstandardcode.py
