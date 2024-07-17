@@ -1,4 +1,4 @@
-name: CI for Conda Environment
+name: myenv
 
 on:
   push:
