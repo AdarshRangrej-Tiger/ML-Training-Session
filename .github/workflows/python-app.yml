@@ -28,7 +28,7 @@ jobs:
       with:
         miniforge-variant: Mambaforge
         activate-environment: mle-dev
-        environment-file: /home/adarshrangrej/conda/envs/mle-dev/environment.yml
+        environment-file: environment.yml
         auto-activate-base: false
 
     - name: Install dependencies
