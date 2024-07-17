@@ -3,7 +3,7 @@ name: CI for Conda Environment
 on:
   push:
     branches:
-      - feature/ci-conda-setup
+      - main
   pull_request:
     branches:
       - main
@@ -27,7 +27,7 @@ jobs:
         auto-update-conda: true
         python-version: 3.8  # specify your Python version
         environment-file: environment.yml
-        activate-environment: myenv  # replace with your environment name
+        activate-environment: myenv 
 
     - name: Install flake8
       run: conda install -c conda-forge flake8
