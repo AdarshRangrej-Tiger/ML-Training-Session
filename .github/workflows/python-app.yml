@@ -30,7 +30,7 @@ jobs:
         activate-environment: mle-dev
 
     - name: Install dependencies
-      run: mamba env update --file environment.yml --name mle-dev
+      run: conda env update --file environment.yml --name mle-dev
 
     - name: Run flake8
       run: |
