@@ -28,20 +28,20 @@ jobs:
       with:
         miniforge-variant: Mambaforge
         activate-environment: mle-dev
-        environment-file: environment.yml
+        environment-file: environment
         auto-activate-base: false
 
     - name: Install dependencies
-      run: mamba env update --file environment.yml --name mle-dev
+      run: conda env update --file environment --name mle-dev
 
     - name: Run flake8
       run: |
-        source ~/.bashrc
+        conda init
         conda activate mle-dev
         flake8 nonstandardcode.py
 
     - name: Run nonstandardcode.py
       run: |
-        source ~/.bashrc
+        conda init
         conda activate mle-dev
         python nonstandardcode.py
