@@ -26,7 +26,7 @@ jobs:
       with:
         auto-update-conda: true
         python-version: 3.8  # specify your Python version
-        environment-file: /home/adarshrangrej/Miniforge/envs
+        environment-file: /home/adarshrangrej/conda/envs
         activate-environment: myenv
 
     - name: Install flake8
