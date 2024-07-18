@@ -6,7 +6,7 @@ on:
       - python-packaging
   pull_request:
     branches:
-      - main
+      - python-packaging
 
 jobs:
   build:
