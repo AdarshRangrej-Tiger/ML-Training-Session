@@ -22,7 +22,6 @@ jobs:
     - name: Set up Miniforge
       uses: conda-incubator/setup-miniconda@v2
       with:
-        miniforge-variant: Mambaforge
         python-version: 3.9
         environment-file: env.yml
         activate-environment: myenv
