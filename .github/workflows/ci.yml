@@ -19,13 +19,13 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.8'  # specify your Python version
+        python-version: '3.8'
 
     - name: Set up Conda
       uses: conda-incubator/setup-miniconda@v2
       with:
         auto-update-conda: true
-        python-version: 3.8  # specify your Python version
+        python-version: 3.8
         environment-file: /environment
         activate-environment: myenv
 
