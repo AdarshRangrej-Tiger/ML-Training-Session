@@ -36,10 +36,10 @@ jobs:
         conda create --name myenv --file env.yml
         conda activate myenv
 
-    - name: Debugging: List conda environments
+    - name: List conda environments
       run: conda env list
 
-    - name: Debugging: List installed packages
+    - name: List installed packages
       run: |
         source $HOME/miniforge3/bin/activate myenv
         conda list
