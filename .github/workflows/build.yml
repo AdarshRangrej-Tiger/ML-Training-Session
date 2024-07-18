@@ -1,0 +1,46 @@
+name: Build Package
+
+on:
+  push:
+    branches:
+      - python-packaging
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -el {0}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install build tool
+      run: pip install --upgrade build
+
+    - name: Install tree tool
+      run: sudo apt-get install -y tree
+
+    - name: Show directory tree before build
+      run: tree
+
+    - name: Build the package
+      run: python -m build
+
+    - name: Show directory tree after build
+      run: tree
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: dist
+        path: dist/
