@@ -26,8 +26,8 @@ jobs:
     - name: Download build artifact
       uses: actions/download-artifact@v4
       with:
-        name: myartifact
-        path: dist/
+        name: my-artifact
+        path: dist
 
     - name: Install the package
       run: pip install dist/*.whl
