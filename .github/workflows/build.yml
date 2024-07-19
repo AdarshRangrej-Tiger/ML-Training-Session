@@ -41,3 +41,4 @@ jobs:
       with:
         name: myartifact
         path: dist/
+        retention-days: 1
