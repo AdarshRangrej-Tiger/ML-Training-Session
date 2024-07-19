@@ -23,6 +23,11 @@ jobs:
         environment-file: env.yml
         activate-environment: myenv
 
+    - name: List available artifacts
+      run: |
+        echo "Available artifacts:"
+        gh api -H "Accept: application/vnd.github+json" /repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts
+
     - name: Download build artifact
       uses: actions/download-artifact@v4
       with:
