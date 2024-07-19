@@ -42,3 +42,6 @@ jobs:
         name: myartifact
         path: dist/
         retention-days: 1
+
+    - name: List uploaded artifacts
+      run: ls dist/
